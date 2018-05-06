@@ -1,0 +1,9 @@
+<suite name="Suite" parallel="tests">
+  
+  <test name="TestFF">
+  <parameter name="browser" value="Firefox"/>
+    <packages>
+      <package name="script"/>
+    </packages>
+  </test> 
+</suite> 

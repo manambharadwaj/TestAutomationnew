@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[logout is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[logout is Displayed]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="70562" started-at="2018-04-30T14:05:37Z" finished-at="2018-04-30T14:06:47Z">
+    <groups>
+      <group name="smoke">
+        <method signature="Validation.testvalidLogin()[pri:2, instance:script.Validation@ea1a8d5]" name="testvalidLogin" class="script.Validation"/>
+      </group> <!-- smoke -->
+      <group name="Login">
+        <method signature="Validation.testvalidLogin()[pri:2, instance:script.Validation@ea1a8d5]" name="testvalidLogin" class="script.Validation"/>
+      </group> <!-- Login -->
+      <group name="version">
+        <method signature="checkPrductVersion.testcheckprductVersion()[pri:4, instance:script.checkPrductVersion@528931cf]" name="testcheckprductVersion" class="script.checkPrductVersion"/>
+      </group> <!-- version -->
+    </groups>
+    <test name="TestFF" duration-ms="70562" started-at="2018-04-30T14:05:37Z" finished-at="2018-04-30T14:06:47Z">
+      <class name="script.Validation">
+        <test-method status="PASS" signature="openApplication(java.lang.String)[pri:0, instance:script.Validation@ea1a8d5]" name="openApplication" is-config="true" duration-ms="36395" started-at="2018-04-30T19:35:37Z" finished-at="2018-04-30T19:36:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="testvalidLogin()[pri:2, instance:script.Validation@ea1a8d5]" name="testvalidLogin" duration-ms="9972" started-at="2018-04-30T19:36:13Z" finished-at="2018-04-30T19:36:23Z">
+          <reporter-output>
+            <line>
+              <![CDATA[logout is Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testvalidLogin -->
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:script.Validation@ea1a8d5]" name="closeApplication" is-config="true" duration-ms="1653" started-at="2018-04-30T19:36:23Z" finished-at="2018-04-30T19:36:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testvalidLogin status=SUCCESS method=Validation.testvalidLogin()[pri:2, instance:script.Validation@ea1a8d5] output=logout is Displayed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- script.Validation -->
+      <class name="script.checkPrductVersion">
+        <test-method status="PASS" signature="openApplication(java.lang.String)[pri:0, instance:script.checkPrductVersion@528931cf]" name="openApplication" is-config="true" duration-ms="13914" started-at="2018-04-30T19:36:25Z" finished-at="2018-04-30T19:36:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="testcheckprductVersion()[pri:4, instance:script.checkPrductVersion@528931cf]" name="testcheckprductVersion" duration-ms="5880" started-at="2018-04-30T19:36:39Z" finished-at="2018-04-30T19:36:45Z">
+          <reporter-output>
+            <line>
+              <![CDATA[logout is Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testcheckprductVersion -->
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:script.checkPrductVersion@528931cf]" name="closeApplication" is-config="true" duration-ms="2685" started-at="2018-04-30T19:36:45Z" finished-at="2018-04-30T19:36:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcheckprductVersion status=SUCCESS method=checkPrductVersion.testcheckprductVersion()[pri:4, instance:script.checkPrductVersion@528931cf] output=logout is Displayed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- script.checkPrductVersion -->
+    </test> <!-- TestFF -->
+  </suite> <!-- Suite -->
+</testng-results>
